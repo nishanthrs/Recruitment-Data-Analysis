@@ -14,7 +14,7 @@ import seaborn as sns
 # In[14]:
 
 # Load csv as pandas dataframes
-traders_df = pd.read_excel("IMC Trading_2018 Quant Trader Full Time and Internship_Data.xlsx", header=0)
+traders_df = pd.read_excel("xxx_2018 Quant Trader Full Time and Internship_Data.xlsx", header=0)
 traders_df = traders_df.drop([0])
 
 # Split into full-time and intern applications
@@ -402,5 +402,5 @@ cleaned_last_stage_df
 
 # Export cleaned data to excel file
 cleaned_applicants_df = cleaned_last_stage_df
-cleaned_applicants_df.to_excel('IMC_Trading_2018-Quant_Trader_Applicant_Data_Cleaned_3.xlsx')
+cleaned_applicants_df.to_excel('xxx_2018-Quant_Trader_Applicant_Data_Cleaned_3.xlsx')
 
