@@ -15,7 +15,7 @@ import seaborn as sns
 
 # Load dataframe and encode categorical features
 
-traders_df = pd.read_csv('IMC_Trading_2018-Quant_Trader_Applicant_Data_Cleaned_3.csv')
+traders_df = pd.read_csv('xxx_2018-Quant_Trader_Applicant_Data_Cleaned_3.csv')
 traders_df = traders_df.rename(columns={'index': 'Applicant #'})
 traders_df = traders_df[traders_df['Candidate_Status'] != 'In Progress']
 traders_df = traders_df.drop(['Applicant #', 'Unnamed: 0', 'ID', 'Jobs Applied', ' Applications'], axis=1)
